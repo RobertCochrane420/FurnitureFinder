@@ -1,1 +1,1 @@
-# FurnitureFinder
+# Fitmyfittings (née FurnitureFinder)
