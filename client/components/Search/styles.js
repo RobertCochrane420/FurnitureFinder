@@ -13,9 +13,13 @@ export default css`
 
   #form {
     display: flex;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .input_wrapper {
+    width: 205px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -26,21 +30,5 @@ export default css`
     padding: 7px;
     font-size: 18px;
     outline-color: ${theme.brandColor} 
-  }
-  
-  .input_with_icon_wrapper {
-    position: relative;
-  }
-
-  .input_with_icon {
-    padding-left: 23px;
-  }
-
-  .input_icon {
-    position: absolute;
-    left: 7px;
-    top: 13px;
-    color: black;
-    font-size: 24px;
   }
 `;
