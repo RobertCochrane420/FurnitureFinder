@@ -50,7 +50,7 @@ export default function Search() {
           </div>
         </div>
         <div className="input_wrapper">
-          <label htmlFor="price_to_input">From</label>
+          <label htmlFor="price_to_input">To</label>
           <div className="input_with_icon_wrapper">
             <span className="input_icon">£</span>
             <input

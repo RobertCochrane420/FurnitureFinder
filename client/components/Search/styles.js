@@ -3,6 +3,7 @@ import theme from '../../theme';
 
 export default css`
   #search {
+    max-width: 900px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
