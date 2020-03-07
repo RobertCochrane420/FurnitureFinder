@@ -1,6 +1,22 @@
+import { globalStyles } from "../../theme";
+import Heading from "../../components/Heading"
+import styles from "./styles";
+import Button from "../../components/Button";
+
 export default function Search() {
 
   return (
-    <div>SEARCH</div>
+    <div> 
+      <Heading />
+      <div id="page">
+        <div id="actions">
+          <Button type="secondary">Filter</Button>
+          <Button type="secondary">Sort</Button>
+        </div>
+        <div id="search_results"></div>
+      </div>
+      <style jsx>{styles}</style>
+      <style jsx global>{globalStyles}</style>
+    </div>
   );
 }
