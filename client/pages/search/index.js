@@ -13,6 +13,9 @@ export default function Search() {
           <Button type="secondary">Filter</Button>
           <Button type="secondary">Sort</Button>
         </div>
+        <div id="info">
+          <span>121 results</span>
+        </div>
         <div id="search_results"></div>
       </div>
       <style jsx>{styles}</style>

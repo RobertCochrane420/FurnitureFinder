@@ -3,12 +3,18 @@ import css from 'styled-jsx/css';
 export default css`
   #page {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   #actions {
-    flex: 1;
+    width: 100%;
     display: flex;
+  }
+
+  #info {
+    width: 100%;
+    font-size: 0.8rem;
   }
 
   #search_results {
