@@ -1,7 +1,10 @@
 import css from 'styled-jsx/css';
+import theme from '../../theme';
 
 export default css`
   #page {
+    padding: 3px;
+    background: ${theme.backgroundColor};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +21,7 @@ export default css`
   }
 
   #search_results {
-
+    width: 100%;
+    color: ${theme.fontColorSecondary}
   }
 `;
