@@ -2,7 +2,7 @@ import css from 'styled-jsx/css';
 import theme from '../../theme';
 
 export default css`
-  #page {
+  #contents {
     padding: 3px;
     background: ${theme.backgroundColor};
     display: flex;
